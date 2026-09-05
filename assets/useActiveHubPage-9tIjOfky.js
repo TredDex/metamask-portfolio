@@ -1,0 +1,1 @@
+import{N as t}from"./web3-_rO62RgG.js";import{D as a}from"./bootstrap-D0_bDNSZ.js";const c=s=>{var o;const{neActiveNetwork:e}=a();return!!((((o=t[s])==null?void 0:o.ecosystemPageConfig)||{})&&(e!=null&&e[s]))};export{c as u};

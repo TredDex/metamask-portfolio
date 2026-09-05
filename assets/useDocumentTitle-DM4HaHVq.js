@@ -1,0 +1,1 @@
+import{r as t}from"./ethers-BOf_wT-A.js";function c(e,o=!1){const f=t.useRef(document.title);t.useEffect(()=>{document.title=`MetaMask Portfolio - ${e}`},[e]),t.useEffect(()=>()=>{o||(document.title=f.current)},[o])}export{c as u};

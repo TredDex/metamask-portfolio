@@ -1,0 +1,1 @@
+import{bZ as t,hZ as e}from"./bootstrap-D0_bDNSZ.js";import{r as o}from"./ethers-BOf_wT-A.js";const n=()=>{const a=t();o.useEffect(()=>{(a.pathname==="/swap"||a.pathname==="/bridge"||a.pathname.startsWith("/swap/")||a.pathname.startsWith("/bridge/"))&&(window.location.href=e)},[a.pathname])};export{n as u};

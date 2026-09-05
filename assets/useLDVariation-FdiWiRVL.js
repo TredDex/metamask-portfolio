@@ -1,0 +1,1 @@
+import{r as i}from"./ethers-BOf_wT-A.js";import{n0 as d,u as p,n1 as l}from"./bootstrap-D0_bDNSZ.js";const V=(s,n)=>{const{ldClient:t,ldUser:c,loading:e,error:o}=d(),{isLdIdentified:a}=p(l),[f,u]=i.useState(n??!1);return i.useEffect(()=>{if(!(e||o)&&a){const r=t==null?void 0:t.variation(s,!1);u(typeof r=="string"?r:!!r)}},[s,c,a,e,o,t]),f};export{V as u};
